@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  MESSAGE:
+    description: "What to greet"
+    required: true
+    default: "Hello"
 
 runs:
   using: "docker"
