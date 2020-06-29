@@ -9,4 +9,4 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-          SECRET_PLACE:  ${{MEETING_PLACE}}
+          SECRET_PLACE:  ${{secrets.MEETING_PLACE}}
