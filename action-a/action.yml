@@ -11,6 +11,10 @@ inputs:
     description: "What to greet"
     required: true
     default: "Hello"
+  SECRET_PLACE:
+    description: "Where to greet"
+    required: true
+    default: "my place"
 
 runs:
   using: "docker"
